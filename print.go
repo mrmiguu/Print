@@ -25,7 +25,7 @@ func init() {
 	gids = []uint64{}
 }
 
-// DebugStatements sets whether or not to print D statements.
+// DebugStatements sets whether or not to print debug statements.
 func DebugStatements(b bool) {
 	printDebugStatementsMux.Lock()
 	printDebugStatements = b
